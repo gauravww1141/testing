@@ -1,0 +1,32 @@
+{% extends 'central/base.html' %}
+{% load static %}
+
+<!--title -->
+{% block title %}
+success
+{% endblock title %}
+
+{% block css %}
+
+{% comment %} <link rel="stylesheet" href="{% static 'css/about_us.css' %}"> {% endcomment %}
+
+{% endblock css %}
+
+{% block buttons %}
+
+{% endblock buttons %}
+
+
+{% block content %}
+<main role="main" style="background-color:white;">
+<div class="jumbotron text-center">
+    <div class="container mt-5">
+        <h1 class="display-4">Payment successfull</h1>
+      
+    </div>
+</div>
+
+</main>
+{% endblock content %}
+
+{% comment %} <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> {% endcomment %}
